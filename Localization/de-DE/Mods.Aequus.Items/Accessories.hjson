@@ -1,13 +1,13 @@
 // Equipment: Accessories
 HallowCanteen: {
-	// DisplayName: Magic Canteen
-	// DisplayNameAlt: Magic Canteen ({0})
+	// DisplayName: Magische Feldflasche
+	// DisplayNameAlt: Magische Feldflasche ({0})
 	// Tooltip: "{$Items.PotionCanteen.Tooltip}"
 }
 
 PotionCanteen: {
-	// DisplayName: Potion Canteen
-	// DisplayNameAlt: Potion Canteen ({0})
+	// DisplayName: Trank-Feldflasche
+	// DisplayNameAlt: Trank-Feldflasche ({0})
 	// Fancy plural syntax. "{^0:potion;potions}" This makes it use "potion" and "potions" correctly for pluralization.
 	// "duration of 1 potion"
 	// "duration of 2 potions"
@@ -16,24 +16,24 @@ PotionCanteen: {
 	// UPDATE: If the word DOES NOT change, you do not need to keep the fancy syntax. Forgot to note that earlier.
 	/* Tooltip:
 		'''
-		Allows infinite buff duration of {0} {^0:potion;potions} while equipped
-		Hover over with {1} potions and press <right> to fill the canteen
+                Erlaublt eine unendliche Dauer eines Buffs von {0} {^0:Trank;Tränken}, solange  der Gegenstand ausgerüstet ist.
+                Bewege deinen Mauszeiger über {1} Tränke und klicke <right>, um die Feldflasche zu füllen.
 		''' */
 }
 
 TerraBalloon: {
-	// DisplayName: Coalescence of Equestrador Balloons
+	// DisplayName: Obsidian-Pferdehuf-Ballonbündel
 	/* Tooltip:
 		'''
 		{$ItemTooltip.HorseshoeBundle}
 		{$ItemTooltip.ObsidianSkull}
-		Hold Up to reduce fall speed
-		Hold Down to increase fall speed
+		Drücke und halte nach oben, um Fallgeschwindigkeit zu reduzieren.
+		Drücke und halte nach unten, um Fallgeschwindigkeit zu erhöhen.
 		''' */
 }
 
 QuadHorseshoeBalloon: {
-	// DisplayName: Coalescence of Horseshoe Balloons
+	// DisplayName: Pferdehuf-Ballonbündel
 	/* Tooltip:
 		'''
 		{$ItemTooltip.HorseshoeBundle}
@@ -42,7 +42,7 @@ QuadHorseshoeBalloon: {
 }
 
 QuadBalloon: {
-	// DisplayName: Coalescence of Balloons
+	// DisplayName: Ballonbündel
 	/* Tooltip:
 		'''
 		{$ItemTooltip.BundleofBalloons}
@@ -51,7 +51,7 @@ QuadBalloon: {
 }
 
 HorseshoeCombination: {
-	// DisplayName: Equestradors
+	// DisplayName: Obsidian-Pferdehuf
 	/* Tooltip:
 		'''
 		{$ItemTooltip.ObsidianHorseshoe}
@@ -60,157 +60,157 @@ HorseshoeCombination: {
 }
 
 BreathConserver: {
-	// DisplayName: Breath Conserver
-	// Tooltip: Restore breath upon breaking tiles and slaying foes
+	// DisplayName: Atemluft-Konverter
+	// Tooltip: Erhalte Atemluft beim zerstören von Blöcken oder töten von Gegnern.
 }
 
 ValentineRing: {
-	// DisplayName: Valentine's Gift
-	// Tooltip: Gift to a friend to grant them and yourself increased regneration and damage
-	// Tooltip2: Increased regneration and damage for yourself and the gifter
-	// GiftTooltip: From yours truly, {0}
-	// BuffName: Valentine
-	// BuffDescription: Increased life regeneration and damage
-	// BuffDescription2: You are being buffed by {0}!
+	// DisplayName: Valentinstaggeschenk
+	// Tooltip:  Schenke es einem Freund, um dessen und deine Lebensregneration und Schaden zu erhöhen.
+	// Tooltip2: Erhöhte Regneration und Schaden für dich und dem Geschenkten.
+	// GiftTooltip: Mit Herzlichen Grüßen: {0} <3
+	// BuffName: Valentinspartner
+	// BuffDescription: Erhöhte Lebensregneration und Schaden
+	// BuffDescription2: Du wirst gebufft bei {0}!
 }
 
 GoldenWind: {
-	// DisplayName: Golden Wind
+	// DisplayName: Goldener Wind
 	/* Tooltip:
 		'''
-		Regenerate {0} health per second
+		Regeneriere {0} Leben pro Sekunde
 		{$Items.GoldenFeather.Tooltip@1}
 		''' */
 	/* BuffDescription:
 		'''
-		Regenerate {0} health per second
+		Regeneriere {0} Leben pro Sekunde
 		{$GoldenFeather.BuffDescription@1}
 		''' */
 }
 
 GoldenFeather: {
-	// DisplayName: Gilded Phoenix
+	// DisplayName: Goldene Phönixfeder
 	/* Tooltip:
 		'''
-		Reduce respawn time by {0} seconds
-		This accessory effects are granted to all nearby teammates
+		Reduziere Widererscheinungszeit um {0} Sekunden
+		Dieser Effekt wird an nahe Teamkameraden verteilt
 		''' */
-	// BuffDescription: You respawn {0} seconds faster
+	// BuffDescription: Die Erscheinst {0} Sekunden schneller
 }
 
 FlashwayShield: {
-	// DisplayName: Flashway Shield
+	// DisplayName: Blitzschild
 	/* Tooltip:
 		'''
-		Allows the ability to dash
-		Double tap a direction
+		Erlaubt dir die Fähigkeit zum Dash
+		Doppelklicke in eine Richtung
 		''' */
 }
 
 PurpleBalloon: {
-	// DisplayName: Matte Purple Balloon
+	// DisplayName: Lila Ballon
 	/* Tooltip:
 		'''
 		{$ItemTooltip.ShinyRedBalloon}
 		{$SlimyBlueBalloon.Tooltip}
-		'Not to be confused with a Balloon in a Balloon'
+		'Nicht zu werwechseln mit dem Ballon im Ballon'
 		''' */
 }
 
 SlimyBlueBalloon: {
-	// DisplayName: Slimy Blue Balloon
+	// DisplayName: Schleimiger blauer Ballon
 	/* Tooltip:
 		'''
-		Slows falling speed
-		Hold down to fall at regular speed
+		Reduziert Fallgesschwindigkeit
+		Halte nach unten um die Fallgesschwindigkeit zu normalisieren
 		''' */
 }
 
 WeightedHorseshoe: {
-	// DisplayName: Weighted Horseshoe
+	// DisplayName: Gewichteter Pferdehuf
 	/* Tooltip:
 		'''
 		{$WeightedHorseshoe.Function}
-		'You should put a verlet chain on this, it won't be buggy!'
+		'Du solltest eine Kette an das Teil anbringen, es wird schon gut sein!'
 		''' */
 	/* Function:
 		'''
-		Doubled maximum fall speed
-		Damage and fall through enemies while at high speeds
+		Verdoppelte Fallgeschwindigkeit
+		Verursache Schaden während du mit hohen Geschwindigkeiten durch Gegner hindurchfällst
 		''' */
 }
 
 //# Equipment: Misc
 RoseTintedGlasses: {
-	// DisplayName: Rose Tinted Glasses
-	// Tooltip: Ignore enemy spawns of the Blood Moon
+	// DisplayName: Rosa gefärbtes Glas
+	// Tooltip: Ignoriere Gegnerische Spawns während des Blutmondes
 }
 
 StellarGlasses: {
-	// DisplayName: Stellar Glasses
-	// Tooltip: Ignore enemy spawns of the Glimmer
+	// DisplayName: Stellares Glas
+	// Tooltip: Ignoriere Gegnerische Spawns vom Glimmer
 }
 
 EclipseGlasses: {
-	// DisplayName: Eclipse Glasses
-	// Tooltip: Ignore enemy spawns of the Eclipse
+	// DisplayName: Eklipsäres Glas
+	// Tooltip:  Ignoriere Gegnerische Spawns von der Eklipse
 }
 
 //# Equipment: Informational
 HoloLens: {
-	// DisplayName: Holo Lens
-	// Tooltip: Allows you to view the contents of locked and unlocked chests without opening them
+	// DisplayName: Hologranmmlinse
+	// Tooltip: Erlaubt dir in Kisten zu schauen, ohne sie zu öffnen
 }
 
 AnglerBroadcaster: {
-	// DisplayName: Seaside Broadcaster
-	// Tooltip: Shows you the current quest fish
+	// DisplayName: Seemannsfunk
+	// Tooltip: Zeigt dir die aktuelle Anglermission
 }
 
 RichMansMonocle: {
-	// DisplayName: Rich Man's Monocle
-	// Tooltip: View item prices outside of shops
+	// DisplayName: Monokel eines reichen Mannes
+	// Tooltip: Sieh dir die Gegenstandspreise von Händlern an, ohne mit ihnen zu reden
 }
 
 GeigerCounter: {
-	// DisplayName: Geiger Counter
-	// Tooltip: Displays the damage per second from debuffs
+	// DisplayName: eigerzähler
+	// Tooltip: Zeigt dir den Schaden pro Sekunde von negetiven Statuseffekten
 }
 
 // --localization note-- this may be a pun? (shimmer + monocle)
 ShimmerMonocle: {
-	// DisplayName: Shmonocle
-	// Tooltip: Displays if an item is a Shimmer Ingredient
+	// DisplayName: Schimmonokle
+	// Tooltip: Zeigt dir Gegenstände als Zutat für den Schimmer
 }
 
 Calendar: {
-	// DisplayName: Calendar
-	// Tooltip: Displays information about the date
+	// DisplayName: Kalender
+	// Tooltip: Zeigt dir die Information über den Tag, natürlich
 }
 
 DamageOnKillClaw: {
-	// DisplayName: The Upper Hand
+	// DisplayName: Die Oberhand
 	/* Tooltip:
 		'''
-		Grant a buff which increases damage by {0}% for each enemy slain
-		Attacking enemies refreshes buff duration
+		Gibt dir einen Statuseffekt der deinen Schaden um {0}% für jeden getöteten Feind erhöht
+		Greife Gegner an um den Statuseffekt zu erneuern
 		''' */
 	// BuffDescription: "{$CommonItemTooltip.PercentIncreasedDamage}"
 }
 
-// Equipment: Backpacks
+// Equipment: Backpack
 ScavengerBag: {
-	// DisplayName: Scavenger Bag
+	// DisplayName: Schrottsammlerrucksack
 	// Tooltip: "{$CommonTooltips.IncreasesInventorySlots}"
-	// BackpackEnabled: Backpack On
-	// BackpackDisabled: Backpack Off
+	// BackpackEnabled: Rucksack An
+	// BackpackDisabled: Rucksack Aus
 }
 
 PlanteraBackpack: {
-	// DisplayName: Bulb Bag
+	// DisplayName: Plfanzensack
 	// Tooltip: "{$CommonTooltips.IncreasesInventorySlots}"
-	// BackpackEnabled: Bulb Bag On
-	// BackpackDisabled: Bulb Bag Off
+	// BackpackEnabled: Plfanzensack An
+	// BackpackDisabled: Plfanzensack Aus
 }
 
 // Do not translate yet, name is temporary.
